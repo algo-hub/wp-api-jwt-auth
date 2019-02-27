@@ -12,9 +12,9 @@
  * @since             1.0.0
  *
  * @wordpress-plugin
- * Plugin Name:       JWT Authentication for WP-API
+ * Plugin Name:       AlgoHub: JWT Authentication for WP-API
  * Plugin URI:        https://enriquechavez.co
- * Description:       Extends the WP REST API using JSON Web Tokens Authentication as an authentication method.
+ * Description:       Modified version of JWT Authentication for WP-API. Removes JWT creation and only validates JWT by looking up the public key using a JWKS endpoint. Extends the WP REST API using JSON Web Tokens Authentication as an authentication method.
  * Version:           1.2.5
  * Author:            Enrique Chavez
  * Author URI:        https://enriquechavez.co

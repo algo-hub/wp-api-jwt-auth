@@ -1,5 +1,7 @@
 # JWT Authentication for the WP REST API
 
+Modified version of JWT Authentication for WP-API. Removes JWT creation and only validates JWT by looking up the public key using a JWKS endpoint.
+
 A simple plugin to add [JSON Web Token (JWT)](https://tools.ietf.org/html/rfc7519) Authentication to the WP REST API.
 
 To know more about JSON Web Tokens, please visit [http://jwt.io](http://jwt.io).
